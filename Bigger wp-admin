@@ -1,7 +1,7 @@
-/* THIS CODE IS TO MAKE THE DASHBOARD AND THE APPEARANCE/CUSTOMIIZE BIGGER SO LESS TIRED FOR THE EYES TO EDIT WITH IT, IF YOU DON´T WANT IT, YOU CAN DEACTIVATE THIS PLUGIN. IF WILL BE MANAGING THIS WEBSITE SOMETIME, DON´T DELETE THE PLUGIN, JUST KEEP IT DEACTIVATED. IF YOU WILL NEVER NEED MY ASISTANCE YOU CAN OF COURSE, DELETE IT*/
+/* IF YOU DON´T USE DARKMODE, JUST DELETE FROM THE 3 */
+/* */
 
-
-/*                      1      DASHBOARD menu                                    */
+/*                   1      DASHBOARD NAVIGATION MENU                                */
 /* */
 #adminmenu .wp-submenu-head,#adminmenu a.menu-top {
 	font-size: 15px!important;
