@@ -1,6 +1,6 @@
 /*                      3      CSS EDITOR EN NEGRO                     */
 /* this changes the "appearance ➜ customize ➜ additional CSS" to dark mode without affecting the size, as it would do in the case of my other repositories: Bigger Wp-Admin */
-/* */
+/* read the readme to know how to insert this */
 
 .CodeMirror {
 	background: #2B2B2B!important;
