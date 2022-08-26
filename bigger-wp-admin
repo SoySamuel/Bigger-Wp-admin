@@ -1,7 +1,7 @@
 /* THIS CODE IS TO MAKE THE DASHBOARD AND THE APPEARANCE/CUSTOMIIZE BIGGER SO LESS TIRED FOR THE EYES TO EDIT WITH IT, IF YOU DON´T WANT IT, YOU CAN DEACTIVATE THIS PLUGIN. IF WILL BE MANAGING THIS WEBSITE SOMETIME, DON´T DELETE THE PLUGIN, JUST KEEP IT DEACTIVATED. IF YOU WILL NEVER NEED MY ASISTANCE YOU CAN OF COURSE, DELETE IT*/
 
 
-/*                            DASHBOARD menu                                    */
+/*                      1      DASHBOARD menu                                    */
 /* */
 #adminmenu .wp-submenu-head,#adminmenu a.menu-top {
 	font-size: 15px!important;
@@ -15,7 +15,7 @@
 /* */
 /* */
 /* */
-/*                        APARIENCIA CUSTOMIZACIÓN                              */
+/*                  2      APARIENCIA CUSTOMIZACIÓN                              */
 /* */
 /*                      MAXIMIZAR EL ESPACIO DE TRABAJO                          */
 /* */
@@ -78,8 +78,8 @@
 /* */
 /* */
 /* */
-/*                            CSS EDITOR EN NEGRO                     */
-/* */
+/*                      3      CSS EDITOR EN NEGRO                     */
+/* this changes the "appearance ➜ customize ➜ aditional CSS" to dark background*/
 .CodeMirror {
 	background: #2B2B2B!important;
 }
@@ -156,11 +156,8 @@
 }
 
 /* */
-/* */
-/* */
-/* */
-/*                      ADMIN CSS MU EDITOR                       */
-/* */
+/*                      admin css mu editor                       */
+/* this code is necesary because when we change to dark mode with the previous code, that affects they way "appearance ➜ customize ➜ aditional CSS" looks, it also modifies the CSS MU editor, making it dificult to read, the following code solves that */
 .cm-s-default .cm-property {
 	color: aquamarine!important;
 }
@@ -176,3 +173,6 @@ cm-s-default .cm-string-2 {
 .cm-s-default .cm-string-2 {
 	color: MediumSpringGreen!important;
 }
+/* */
+
+/* Samuel Medina */
