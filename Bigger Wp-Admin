@@ -1,7 +1,4 @@
-/* IF YOU DON´T USE DARKMODE, JUST DELETE FROM THE 3 */
-/* */
-
-/*                   1      DASHBOARD NAVIGATION MENU                                */
+/*                            DASHBOARD menu                                    */
 /* */
 #adminmenu .wp-submenu-head,#adminmenu a.menu-top {
 	font-size: 15px!important;
@@ -15,7 +12,7 @@
 /* */
 /* */
 /* */
-/*                  2      APARIENCIA CUSTOMIZACIÓN                              */
+/*                        APARIENCIA CUSTOMIZACIÓN                              */
 /* */
 /*                      MAXIMIZAR EL ESPACIO DE TRABAJO                          */
 /* */
@@ -28,6 +25,12 @@
 	width: calc(100% - 59px)!important;
 	margin-left: 59px!important;
 	height: calc(100% - 0px)!important;
+}
+
+/* Panel inferior */
+.ct-panel-builder {
+	left: 61px!important;
+	width: calc(100% - 59px)!important;
 }
 
 /* Barra de la izquierda */
@@ -78,8 +81,8 @@
 /* */
 /* */
 /* */
-/*                      3      CSS EDITOR EN NEGRO                     */
-/* this changes the "appearance ➜ customize ➜ aditional CSS" to dark background*/
+/*                            CSS EDITOR EN NEGRO                     */
+/* */
 .CodeMirror {
 	background: #2B2B2B!important;
 }
@@ -156,8 +159,11 @@
 }
 
 /* */
-/*                      admin css mu editor                       */
-/* this code is necesary because when we change to dark mode with the previous code, that affects they way "appearance ➜ customize ➜ aditional CSS" looks, it also modifies the CSS MU editor, making it dificult to read, the following code solves that */
+/* */
+/* */
+/* */
+/*                      ADMIN CSS MU EDITOR                       */
+/* */
 .cm-s-default .cm-property {
 	color: aquamarine!important;
 }
@@ -173,6 +179,3 @@ cm-s-default .cm-string-2 {
 .cm-s-default .cm-string-2 {
 	color: MediumSpringGreen!important;
 }
-/* */
-
-/* Samuel Medina */
